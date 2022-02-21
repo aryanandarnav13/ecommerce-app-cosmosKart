@@ -1,0 +1,74 @@
+@import "home.css"; 
+
+:root {
+  --primary-color: #ffc74a;
+  --secondary-color: #1c2851;
+  --cover-color: rgb(224, 222, 222);
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+
+.slider{
+    width: 100%;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.container:hover{
+  box-shadow: #000000;
+}
+
+.add_to_cart{
+   
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-radius: .2rem;
+    border: 0.1rem solid #1c2851;
+    
+}
+.add_to_wish{
+    padding: .2rem;
+    border-radius: .3rem;
+  
+}
+
+.side {
+  flex: 30%;
+  padding: 20px;
+  background-image: linear-gradient(#818da7, rgb(238, 224, 161));
+}
+
+.main {
+  flex: 70%;
+  padding: 20px;
+}
+.cover2 {
+  background-color: var(--cover-color);
+  width: 100%;
+  padding: 20px;
+}
+.filter_head {
+  display: flex;
+  justify-content: space-between;
+}
+.checkboxsize {
+  width: 1rem;
+  height: 1rem;
+  margin-bottom: 0;
+}
+
+
+
+.btn{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+a{
+    text-decoration: none;
+}
