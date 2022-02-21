@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Products | Store</title>
+    <link rel="stylesheet" href="products.css" />
+  </head>
+  <body>
+    <!-- navbar starts -->
+    <div class="nav">
+      <input type="checkbox" id="nav-check" />
+      <div class="nav-header">
+        <div class="nav-title">CosmosKart</div>
+      </div>
+      <div class="nav-btn">
+        <label for="nav-check">
+          <span></span>
+          <span></span>
+          <span></span>
+        </label>
+      </div>
+      <div class="nav-links">
+        <a href="home.html" target="_blank">Home</a>
+        <a href="products.html" target="_blank">🔎</a>
+        <a href="cart.html" target="_blank">📂</a>
+        <a href="wishlist.html" target="_blank">🧡</a>
+        <a href="login.html" target="_blank">Login</a>
+        <a href="signup.html" target="_blank">Sign Up</a>
+      </div>
+  </div>
+    <!-- navbar ends -->
+
+    <div class="row">
+      <div class="side">
+        <div class="filter_head">
+          <div>
+            <h4>Filters</h4>
+          </div>
+          <div>
+                <a href="">Clear</a>
+          </div>
+        </div>
+        <div class="filter_components">
+          <div class="fil_comp">
+            <h4 class="fil_head">Price</h4>
+            <input type="checkbox" class="checkboxsize" />
+            <label>Below 100</label>
+            <br />
+            <input type="checkbox" class="checkboxsize" />
+            <label>Rs 100-200</label>
+            <br />
+            <input type="checkbox" class="checkboxsize" />
+            <label>Above 200</label>
+          </div>
+        </div>
+        <div class="filter_components">
+          <div class="fil_comp">
+            <h4 class="fil_head">Catergory</h4>
+            <input type="radio" class="checkboxsize" />
+            <label>Lenses</label>
+            <br />
+            <input type="radio" class="checkboxsize" />
+            <label>Stickers</label>
+          </div>
+        </div>
+        <div class="filter_components">
+          <div class="fil_comp">
+            <h4 class="fil_head">Rating</h4>
+            <div class="filter_head">
+              <div>
+                <span>1</span>
+              </div>
+              <div>
+                <span>5</span>
+              </div>
+            </div>
+            <div class="slidecontainer">
+              <input
+                type="range"
+                min="1"
+                max="100"
+                value="50"
+                class="slider"
+                id="myRange"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="filter_components">
+          <div class="fil_comp">
+            <h4 class="fil_head">Sort By</h4>
+            <input type="checkbox" class="checkboxsize" />
+            <label>Price : Low to High</label>
+            <br />
+            <input type="checkbox" class="checkboxsize" />
+            <label>Price : High to Low</label>
+          </div>
+        </div>
+      </div>
+
+      <div class="main">
+        <div class="container">
+            <div class="card">
+                <img src="assets/a.jfif" class="prod_img">
+                <div>
+                  <h4 class="item_name"><b>Telescope</b></h4>
+                  <h3 class="price">Rs 3000</h5>
+                  <div class="add_to">
+                      <a class="add_to_cart" href="">📂</a>
+                      <a class="add_to_wish" href="">🧡</a>
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <img src="assets/a.jfif" class="prod_img">
+                <div>
+                  <h4 class="item_name"><b>Telescope</b></h4>
+                  <h3 class="price">Rs 3000</h5>
+                    <div class="add_to">
+                        <a class="add_to_cart" href="">📂</a>
+                        <a class="add_to_wish" href="">🧡</a>
+                    </div>
+                </div>
+              </div>
+              <div class="card">
+                <img src="assets/a.jfif" class="prod_img">
+                <div class="contain">
+                  <h4 class="item_name"><b>Telescope</b></h4>
+                  <h3 class="price">Rs 3000</h5>
+                    <div class="add_to">
+                        <a class="add_to_cart" href="">📂</a>
+                        <a class="add_to_wish" href="">🧡</a>
+                    </div>                </div>
+              </div>
+              <div class="card">
+                <img src="assets/a.jfif" class="prod_img">
+                <div class="contain">
+                  <h4 class="item_name"><b>Telescope</b></h4>
+                  <h3 class="price">Rs 3000</h5>
+                    <div class="add_to">
+                        <a class="add_to_cart" href="">📂</a>
+                        <a class="add_to_wish" href="">🧡</a>
+                    </div>                </div>
+              </div>
+              <div class="card">
+                <img src="assets/a.jfif" class="prod_img">
+                <div class="contain">
+                  <h4 class="item_name"><b>Telescope</b></h4>
+                  <h3 class="price">Rs 3000</h5>
+                    <div class="add_to">
+                        <a class="add_to_cart" href="">📂</a>
+                        <a class="add_to_wish" href="">🧡</a>
+                    </div>                </div>
+              </div>
+              <div class="card">
+                <img src="assets/a.jfif" class="prod_img">
+                <div>
+                  <h4 class="item_name"><b>Telescope</b></h4>
+                  <h3 class="price">Rs 3000</h5>
+                    <div class="add_to">
+                        <a class="add_to_cart" href="">📂</a>
+                        <a class="add_to_wish" href="">🧡</a>
+                    </div>                </div>
+              </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <small> Copyright @Aryanand Arnay ; 2021</small>
+    </footer>
+  </body>
+</html>
